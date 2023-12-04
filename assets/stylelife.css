@@ -1,0 +1,162 @@
+body{
+    background-color: rgb(240, 222, 197);
+}
+/*
+.brickbg{
+    height: 400px;
+    width: 230px;
+    background-color: rgb(143,135,116);
+    position: absolute;
+    top: 230px;
+    left: 530px;
+    border-radius: 6%;
+    animation: shaking 1s infinite alternate;
+}
+
+.brickshadow1{
+    height: 130px;
+    width: 150px;
+    background-color: rgb(91,86,74);
+    position: absolute;
+    top: 260px;
+    left: 572px;
+    border-radius: 6%;
+    animation: shaking 1s infinite alternate;
+}
+
+.brickshadow2{
+    height: 130px;
+    width: 150px;
+    background-color: rgb(91,86,74);
+    position: absolute;
+    top: 450px;
+    left: 572px;
+    border-radius: 6%;
+    animation: shaking 1s infinite alternate;
+}
+
+.brickthru1{
+    height: 110px;
+    width: 150px;
+    border-radius: 6%;
+    background-color: rgb(240, 222, 197);
+    position: absolute;
+    top: 290px;
+    left: 572px;
+    animation: shaking 1s infinite alternate;
+}
+
+.brickthru2{
+    height: 110px;
+    width: 150px;
+    border-radius: 6%;
+    background-color: rgb(240, 222, 197);
+    position: absolute;
+    top: 480px;
+    left: 572px;
+    animation: shaking 1s infinite alternate;
+}
+
+.apple{
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(125, 153, 68);
+    position: absolute;
+    top: 350px;
+    left: 598px;
+    animation: shaking 1s infinite alternate;
+}
+.appledot{
+    height: 40px;
+    width: 110px;
+    background-color: rgb(143, 135, 116);
+    position: absolute;
+    top: 400px;
+    left: 593px;
+    animation: shaking 1s infinite alternate;
+
+}
+*/
+
+.candletop{
+    height: 400px;
+    width: 120px;
+    background-color: rgb(255, 252, 246);
+    position: absolute;
+    top: 230px;
+    left: 530px;
+    border-radius: 3%;
+
+}
+
+.candlebottom{
+    height: 300px;
+    width: 110px;
+    background-color: rgb(78, 102, 241);
+    position: absolute;
+    top: 330px;
+    left: 535px;
+    border-radius: 3%;
+
+}
+.candlemiddle{
+    height: 100px;
+    width: 110px;
+    background-color: rgb(220, 205, 182);
+    position: absolute;
+    top: 235px;
+    left: 535px;
+    border-radius: 3%;
+    
+}
+
+.bottom{
+    height: 10px;
+    width: 110px;
+    background-color: rgb(48, 63, 151);
+    position: absolute;
+    top: 621px;
+    left: 535px;
+    border-radius: 40%;
+}
+
+.light{
+    height: 396px;
+    width: 10px;
+    background-color: rgb(255, 252, 246);
+    position: absolute;
+    top: 235px;
+    left: 555px;
+    border-radius: 3%;
+
+}
+.flame{
+    height: 0px;
+    width: 0px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid rgb(246, 137, 82);
+    position: absolute;
+    top: 280px;
+    left: 565px;
+    animation: shaking 1s infinite alternate;
+}
+
+@keyframes shaking{
+    0%{
+        transform: skew(-3deg, 0deg);
+    }
+    25%{
+        transform: skew(3deg, 0deg);
+    }
+    50%{
+        transform: skew(-3deg, 0deg);
+    }
+    75%{
+        transform: skew(3deg, 0deg);
+    }
+    100%{
+        transform: skew(-3deg, 0deg);
+    }
+}
